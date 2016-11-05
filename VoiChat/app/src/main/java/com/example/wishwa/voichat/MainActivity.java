@@ -14,8 +14,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void textToSpeech(View view){
-        Intent i = new Intent(MainActivity.this,TextSpeech.class);
-        startActivity(i);
+        Intent k = new Intent(MainActivity.this,TextSpeech.class);
+        startActivity(k);
     }
 
     public void speechToText(View view){
